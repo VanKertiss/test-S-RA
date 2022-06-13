@@ -1,0 +1,45 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin: 16px 0;
+    height: 48px;
+    max-width: 270px;
+    width: 100%;
+    background: #F9F9FB;
+    margin-left: 30px;
+    margin-right: 310px;
+}
+
+.searchButton{
+    margin-left: 10px;
+    margin-right: 5px;   
+    width: 24px;
+    height: 24px;
+    background: url(../../img/search.png);
+    border: none;
+}
+
+.searchInput{
+    background: #F9F9FB;
+    border:none;
+    outline:none;
+}
+
+.searchInput::placeholder{
+    color: #C6C6C6;
+}
+
+.userContainer{
+    display: flex;
+    align-items:center;
+}
+
+.calendarImg{
+    cursor: pointer;
+}

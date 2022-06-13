@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footer {
+    color: #676A71;
+    padding: 80px 0;
+    margin: auto;
+}
+
+.aboutContainer {
+    margin-right: 54px;
+    width: 338px;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.aboutText {
+    max-width: 241px;
+}
+
+.imgLogo {
+    width: 170px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.aboutTitle {
+    color: #4D4D4F;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.aboutName {
+    color: #676A71;
+    margin-top: 10px;
+    width: 338px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 54px;
+}
+
+.aboutAddress {
+    margin-top: 5px;
+    color: #A8AAAE;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.containerInfo {
+    margin-right: 79px;
+}
+
+.infoTitle {
+    color: #231F20;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.infoItems {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4D4D4F;
+}
+
+.infoItem {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.technicContainer {
+    margin-right: 30px;
+    max-width: 270px;
+}
+
+.technicTitle {
+    color: #231F20;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.technicText {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #676A71;
+}
+
+.technicItems {
+    color: #4D4D4F;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 0;
+}
+
+.technicItem {
+    margin-bottom: 10px;
+}
+
+.contactTitle {
+    color: #231F20;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.contactItems {
+    color: #4D4D4F;
+    padding-left: 0;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.contactItem {
+    margin-bottom: 10px;
+}
+
+.contactItemLink {
+    max-width: 180px;
+    color: #009CB4;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lowerFooter {
+    border-top: 1px solid #EDEDF4;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C6C6C6;
+}

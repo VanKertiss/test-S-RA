@@ -1,6 +1,7 @@
 - [x] init CRA + TS;
 - [x] create a basic structure;
 - [x] footer layout;
+- [ ] authorization layout;
 - [ ] add redux,redux toolkit, formic;
 - [ ] add stor and reducers;
 - [ ] add api;

@@ -10,10 +10,8 @@ import Authorization from '../../pages/Authorization/Authorization';
 
 function App() {
   return (
-    <div className={HS.container}>
-       
-      < Header />
-     
+    <div className={HS.container}>       
+      < Header />     
       < Routes>
         <Route path='/' element={<Main />}></Route>
         <Route path='/profile' element={<Profile />}></Route>

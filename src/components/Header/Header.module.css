@@ -96,18 +96,17 @@
     background-repeat: no-repeat;
 }
 
-.userSelect {
+.linkLogin{
+    display: flex;
+    align-items:center;
     color:#4D4D4F;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-    border: none;
-    outline: none;
-    width: 232px;
-    height: 48px;
-    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
 }
 
-.userOption {
-    height: 48px;
+.arrowDown{
+    margin-left: 20px;
 }

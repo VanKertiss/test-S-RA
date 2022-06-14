@@ -1,5 +1,7 @@
 import HS from './Header.module.css';
 import calendar from '../../img/Calendar.png'
+import { Link } from 'react-router-dom';
+import arrowDown from '../../img/upper arrow.png'
 
 const UserInfo = () => {
     return (
@@ -11,10 +13,7 @@ const UserInfo = () => {
             <div className={HS.separator}></div>
             <div className={HS.userInfo}>
                 <div className={HS.userPhoto}></div>
-                <select className={HS.userSelect} name="" id="" size={1}>
-                    <option className={HS.userOption} value="">Вход в аккаунт</option>
-                    <option className={HS.userOption} value=""></option>
-                </select>
+                <Link className={HS.linkLogin} rel="stylesheet" to="/login" > Вход в аккаунт <img className={HS.arrowDown} src={arrowDown} alt="" /> </Link>
             </div>
         </div>
     )

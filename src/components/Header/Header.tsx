@@ -5,10 +5,13 @@ import UserInfo from './UserInfo';
 
 const Header = () => {
     return (
+        <div className={HS.headerSlimContainer}>
         <div className={HS.headerContainer}>
+            
             <img src={logo} alt="" />
             <Search />
             <UserInfo />
+            </div>
         </div>
     )
 }

@@ -6,6 +6,7 @@ import FooterTechnic from './FooterTechnic';
 
 const Footer = () => {
     return (
+        <div className={HS.footerSlimContainer}>
         <footer className={HS.footer}>
             <div className={HS.container}>
                 <FooterAbout />
@@ -15,6 +16,7 @@ const Footer = () => {
             </div>
             <div className={HS.lowerFooter}>© Copyright 2022 — ОАО «РеестрПО». Все права защищены.</div>
         </footer>
+        </div>
     )
 }
 

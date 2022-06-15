@@ -1,0 +1,182 @@
+.mainBackgroundContainer {
+    background-color: #F9F9FB;
+    border-top: 1 px solid #676A71;
+}
+
+.promoContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+
+.promoContent {
+    max-width: 413px;
+    margin-bottom: 80px;
+}
+
+.promoTitle {
+    margin-top: 110px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #231F20;
+}
+
+.promoText {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #676A71;
+}
+
+.promoTextNum {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #009CB4;
+}
+
+.promoSearchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #FFFFFF
+}
+
+.searchInputContainer {
+    display: flex;
+    align-items: center;
+}
+
+.promoSearchInput {
+    border: none;
+    outline: none;
+    height: 56px;
+    margin-left: 10px;
+}
+
+.searchImg {
+    margin-left: 15px;
+}
+
+.promoSearchButton {
+    width: 120px;
+    height: 56px;
+    background: #009CB4;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+
+.promoImg {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.registriesContainer {
+    padding-top: 80px;
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+
+.registriesTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #231F20;
+    margin-bottom: 40px;
+}
+
+.pagiContainer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------------------------------------News */
+
+.newsTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #231F20;
+    margin-bottom: 40px;
+}
+
+.newsContainer {
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+
+.newsItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 370px;
+    margin-bottom: 40px;
+}
+
+.itemImg {
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+.itemTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #231F20;
+    margin-bottom: 12px;
+}
+
+.itemDate {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A8AAAE;
+    margin-bottom: 12px;
+}
+
+.calendarImg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.itemText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #676A71;
+}
+
+.newsButton {
+    width: 270px;
+    height: 56px;
+    background: #009CB4;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 40px;
+}

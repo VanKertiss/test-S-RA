@@ -1,0 +1,73 @@
+.contentHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #009CB4;
+border-top: #EDEDF4 1px solid;
+border-bottom: #EDEDF4 1px solid;
+height: 84px;
+}
+
+.number, .name{
+    display: flex;
+    align-items: center;
+}
+
+.number, .name, .code, .class, .date{
+    margin-right: 60px;
+}
+
+.numberImg, .nameImg{
+    transform: rotate(90deg);
+    width: 24px;
+    height: 24px; 
+}
+
+.contentHeaderItem{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4D4D4F;
+    border-bottom: #EDEDF4 1px solid;
+}
+
+.numberItem{
+    display: flex;
+    align-items:center;
+    width: 188px;
+    padding-left: 34px;
+    box-sizing: border-box;
+    height: 106px;
+}
+
+.nameItem{
+    max-width: 267px;
+}
+
+.codeItem{
+    width: 57px;
+}
+
+.classItem{
+    width: 173px;
+}
+
+.dateItem{
+    width: 108px;
+}
+
+.addressItem{
+    width: 77px;
+    color: #009CB4;
+}
+
+
+
+
+

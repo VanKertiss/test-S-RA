@@ -1,0 +1,90 @@
+.documentContainer{
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.documentTitle{
+    font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+color: #231F20;
+margin-top: 80px;
+}
+
+.documentSubtitle{
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+color: #4D4D4F;
+margin-top: 10px;
+}
+
+.documentSubtitle span{
+    color: #009CB4;
+}
+
+.listDocumentHeader{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #009CB4;
+border-top: #EDEDF4 1px solid;
+border-bottom: #EDEDF4 1px solid;
+height: 64px;
+}
+
+.docCategory, .docCategoryItem{
+    width: 170px;
+}
+
+.docName, .docNameItem{
+    width: 390px;
+}
+
+.docDate, .docDateItem{
+    width: 70px;
+}
+
+.docNumber, .docNumberItem{
+    width: 52px;
+}
+
+.docContent, .docContentItem{
+    width: 165px;
+    display: flex;
+    align-items:center;
+}
+
+.docContentItem{
+    width: 165px;
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+}
+
+.docContentText, .docContentTextItem{
+    margin-left: 10px;
+    width: 122px;
+}
+
+.docCategory, .docName, .docDate, .docNumber{
+    margin-right: 80px;
+}
+
+.listDocumentHeaderItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-bottom: #EDEDF4 1px solid;
+}
+
+.docCategoryItem, .docNameItem, .docDateItem, .docNumberItem{
+    margin-right: 80px;
+}

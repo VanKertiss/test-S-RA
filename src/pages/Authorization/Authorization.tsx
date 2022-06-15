@@ -5,6 +5,7 @@ import AuthorizationForm from './authorizationForm';
 
 const Authorization = () => {
     return (
+        
         <div className={HS.authContainer}>
             <Link className={HS.backToMain} to={'/'}>
                 <img className={HS.arrowImg}  src={arrow} alt="" />

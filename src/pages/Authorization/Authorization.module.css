@@ -1,5 +1,7 @@
 .authContainer {
-    margin-top: 40px;
+    padding-top: 40px;
+    max-width: 1170px;
+    margin: auto;
 }
 
 .backToMain {

@@ -3,6 +3,12 @@
     margin-bottom: 40px;
 }
 
+.footerSlimContainer{
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+
 .footer {
     color: #676A71;
     padding: 80px 0;

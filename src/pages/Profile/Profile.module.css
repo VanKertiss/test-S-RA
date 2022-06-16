@@ -1,0 +1,172 @@
+.profileContainer {
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+
+.profileTitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #231F20;
+    margin-top: 80px;
+}
+
+.profileMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.navItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 270px;
+    height: 72px;
+    border: #EDEDF4 solid 1px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #676A71;
+}
+
+.navItem:hover{
+
+}
+
+.active {
+    border: 1px solid #009CB4;
+    border-radius: 5px;
+}
+
+.maleImg{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.profileContent{
+    margin-top: 40px;
+    max-width: 770px;
+    width: 75%;
+}
+
+.profileContentTitle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #EDEDF4;
+}
+
+.profileContentImg{
+    width: 64px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profileContentText{
+    font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #231F20;
+}
+
+.firsStage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #EDEDF4;
+}
+
+.firstStageTitle{
+    width: 100%;
+    font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #4D4D4F;
+margin-bottom: 20px;
+margin-top: 36px;
+}
+
+.firstStageInputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.firstStageInputContainer label{
+    font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: #A8AAAE;
+margin-bottom: 5px;
+}
+
+.firstStageInputContainer input, select{
+    box-sizing: border-box;
+    padding-right: 16px;
+    width: 370px;
+    height: 56px;
+    background: #F6F6F9;
+border-radius: 5px;
+border: none;
+outline: none;
+appearance: none;
+cursor: pointer;
+padding-left: 18px;
+}
+
+.firstStageInputContainer select{
+    background: #F6F6F9 url(../../img/upper\ arrow.png) no-repeat right;
+    background-position-x: calc(100% - 16px);
+}
+
+select .option{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A8AAAE;
+    height: 30px;
+}
+
+.seconStage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #EDEDF4;
+}
+
+.secondStageTitle{
+    width: 100%;
+    font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #4D4D4F;
+margin-bottom: 20px;
+margin-top: 36px;
+}
+
+.formSubmit{
+    color: #FFFFFF;
+    margin-top: 36px;
+    width: 270px;
+height: 56px;
+background: #009CB4;
+border-radius: 5px;
+border:none;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+}

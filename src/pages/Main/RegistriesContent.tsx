@@ -2,41 +2,30 @@ import HS from './Registries.module.css';
 import arrow from '../../img/arrow-left-right.png';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../Store/store';
 
 export type Tdata = {
-    id: string;
+    num: string;
     name: string;
     code: string;
-    class: string;
+    clas: string;
     date: string;
-    address: string;
+    link: string;
 }
-
-const data = [
-    { id: '#1', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#2', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#3', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#4', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#5', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#6', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#7', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#8', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#9', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-    { id: '#10', name: 'Система управления базами данных «Ред База Данных»', code: '02.09', class: 'Системы управления  базами данных', date: '29.01.2016', address: 'Ссылка' },
-];
-
-
 
 const RegistriesContent: FC = () => {
 
-    const RegistriesContentItems = data.map(item => {
-        return <div key={item.id} className={HS.contentHeaderItem}>
-            <div className={HS.numberItem}>{item.id}</div>
-            <div className={HS.nameItem}>{item.name}</div>
-            <div className={HS.codeItem}>{item.code}</div>
-            <div className={HS.classItem}>{item.class}</div>
-            <div className={HS.dateItem}>{item.date}</div>
-            <Link className={HS.addressItem} to={'/'} ><div >{item.address}</div></Link>
+    const registersData = useSelector<RootState>((state)=> state.registers.registersData) as Tdata[]
+
+    const RegistriesContentItems = registersData.map(({num, name, code, clas, date, link}) => {
+        return <div key={num} className={HS.contentHeaderItem}>
+            <div className={HS.numberItem}>{num}</div>
+            <div className={HS.nameItem}>{name}</div>
+            <div className={HS.codeItem}>{code}</div>
+            <div className={HS.classItem}>{clas}</div>
+            <div className={HS.dateItem}>{date}</div>
+            <Link className={HS.addressItem} to={'/'} ><div >{link}</div></Link>
         </div>
     })
 

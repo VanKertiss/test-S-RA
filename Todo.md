@@ -9,4 +9,4 @@
 - [ ] add thunk;
 - [x] header layout;
 - [ ] authorization;
-- [ ] main content layout;
+- [x] main content layout;

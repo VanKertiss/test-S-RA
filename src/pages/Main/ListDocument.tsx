@@ -1,28 +1,30 @@
 import HS from './Document.module.css';
 import paper from '../../img/paper.png';
 import download from '../../img/download.png';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../Store/store';
 
-const documentData = [
-    { id: 1, category: 'Общие документы', name: 'Постановление Правительства Российской Федерации от 20.07.2021 "О внесении изменений в постановление Правительства Российской Федерации от 16 ноября 2015 г. № 1236"', date: '20.07.2021', number: 1226, content: `Скачать (469Кб)` },
-    { id: 2, category: 'Общие документы', name: 'Постановление Правительства Российской Федерации от 20.07.2021 "О внесении изменений в постановление Правительства Российской Федерации от 16 ноября 2015 г. № 1236"', date: '20.07.2021', number: 1226, content: 'Скачать (469Кб)' },
-    { id: 3, category: 'Общие документы', name: 'Постановление Правительства Российской Федерации от 20.07.2021 "О внесении изменений в постановление Правительства Российской Федерации от 16 ноября 2015 г. № 1236"', date: '20.07.2021', number: 1226, content: 'Скачать (469Кб)' },
-    { id: 4, category: 'Общие документы', name: 'Постановление Правительства Российской Федерации от 20.07.2021 "О внесении изменений в постановление Правительства Российской Федерации от 16 ноября 2015 г. № 1236"', date: '20.07.2021', number: 1226, content: 'Скачать (469Кб)' },
-    { id: 5, category: 'Общие документы', name: 'Постановление Правительства Российской Федерации от 20.07.2021 "О внесении изменений в постановление Правительства Российской Федерации от 16 ноября 2015 г. № 1236"', date: '20.07.2021', number: 1226, content: 'Скачать (469Кб)' },
-];
-
-
+export type TdocumentData ={
+    category: string;
+    name: string;
+    date: number;
+    number: string;
+    content: string;
+};
 
 const ListDocument = () => {
 
-    const listDocItems = documentData.map(item => {
-        return <div key={item.id} className={HS.listDocumentHeaderItem}>
-            <div className={HS.docCategoryItem}>{item.category}</div>
-            <div className={HS.docNameItem}>{item.name}</div>
-            <div className={HS.docDateItem}>{item.date}</div>
-            <div className={HS.docNumberItem}>{item.number}</div>
+const documentData = useSelector<RootState>((state)=> state.document.documentData) as TdocumentData[]
+
+    const listDocItems = documentData.map(({category, name, date, number, content}) => {
+        return <div key={number} className={HS.listDocumentHeaderItem}>
+            <div className={HS.docCategoryItem}>{category}</div>
+            <div className={HS.docNameItem}>{name}</div>
+            <div className={HS.docDateItem}>{date}</div>
+            <div className={HS.docNumberItem}>{number}</div>
             <div className={HS.docContentItem}>
                 <img src={download} alt="" />
-                <div className={HS.docContentTextItem}>{item.content}</div>
+                <div className={HS.docContentTextItem}>{content}</div>
             </div>
         </div>
     });

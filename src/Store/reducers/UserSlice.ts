@@ -2,15 +2,15 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     userData: {
-        firstName: '',
-        lasName: '',
-        fatherName: '',
-        country: '',
-        city: '',
-        phone: '',
-        password: '',
+        firstName: 'Иван',
+        lasName: 'Дульчик',
+        fatherName: 'Иванович',
+        country: 'Belarus',
+        city: 'Minsk',
+        phone: '+37544-546-54-23',
+        password: '123456',
     },
-    authorized: false,
+    authorized: true,
 }
 
 export const userSlice = createSlice({

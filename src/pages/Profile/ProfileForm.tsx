@@ -1,13 +1,13 @@
 import HS from './Profile.module.css';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../Store/store';
-import { TUserData } from './Profile';
+import { IUserData } from '../../interface/userInterface';
 
 const ProfileForm = () => {
-    const profileData = useSelector<RootState>((state) => state.user.userData) as TUserData;
+    const profileData = useSelector<RootState>((state) => state.user.userData) as IUserData;
 
     return (
-        <form className={HS.formContainer}>
+        <form  className={HS.formContainer}>
             <div className={HS.firstStageTitle}>Основные данные</div>
             <div className={HS.firsStage}>
 
@@ -44,11 +44,11 @@ const ProfileForm = () => {
                 <div className={HS.secondStageTitle}>Пароль</div>
                 <div className={HS.firstStageInputContainer}>
                     <label htmlFor="firstName">Новый пароль</label>
-                    <input value={profileData.password} id='firstName' type="password" />
+                    <input defaultValue={profileData.password} id='firstName' type="password" />
                 </div>
                 <div className={HS.firstStageInputContainer}>
                     <label htmlFor="firstName">Подтверждение пароля</label>
-                    <input value={profileData.password} id='firstName' type="password" />
+                    <input defaultValue={profileData.password} id='firstName' type="password" />
                 </div>
             </div>
             <button className={HS.formSubmit} >Сохранить</button>

@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../Store/store';
 
 export type TdocumentData ={
+    id: number;
     category: string;
     name: string;
     date: number;
@@ -16,8 +17,8 @@ const ListDocument = () => {
 
 const documentData = useSelector<RootState>((state)=> state.document.documentData) as TdocumentData[]
 
-    const listDocItems = documentData.map(({category, name, date, number, content}) => {
-        return <div key={number} className={HS.listDocumentHeaderItem}>
+    const listDocItems = documentData.map(({category, name, date, number, content, id}) => {
+        return <div key={id} className={HS.listDocumentHeaderItem}>
             <div className={HS.docCategoryItem}>{category}</div>
             <div className={HS.docNameItem}>{name}</div>
             <div className={HS.docDateItem}>{date}</div>

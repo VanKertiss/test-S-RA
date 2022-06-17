@@ -102,6 +102,16 @@
     background-repeat: no-repeat;
 }
 
+.userPhotoLogin{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: url(../../img/profileImg.jpg) #F4F3F5;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .linkLogin{
     display: flex;
     align-items:center;

@@ -2,11 +2,12 @@
 - [x] create a basic structure;
 - [x] footer layout;
 - [x] authorization layout;
-- [ ] add redux,redux toolkit, formic;
-- [ ] add stor and reducers;
+- [x] add redux,redux toolkit;
+- [x] add stor and reducers;
 - [ ] add api;
 - [ ] add async request;
 - [ ] add thunk;
 - [x] header layout;
 - [ ] authorization;
 - [x] main content layout;
+- [x] profile layout;

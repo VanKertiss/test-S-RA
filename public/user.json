@@ -1,0 +1,11 @@
+{   "dataUser": 
+    {    
+    "firstName" : "Иван",
+    "lasName": "Дульчик",
+    "fatherName": "Иванович",
+    "country": "Belarus",
+    "city": "Minsk",
+    "phone": "+37544-546-54-23",
+    "password": "123456"
+    }
+}

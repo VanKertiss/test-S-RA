@@ -132,12 +132,13 @@ padding-left: 18px;
     background-position-x: calc(100% - 16px);
 }
 
-select .option{
+.firstStageSelect{
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    color: #A8AAAE;
-    height: 30px;
+    color: #4D4D4F;
+    height: 56px;
+
 }
 
 .seconStage{

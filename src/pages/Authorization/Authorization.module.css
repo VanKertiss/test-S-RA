@@ -66,6 +66,77 @@
     box-sizing: border-box;
 }
 
+
+
+.formLabelError {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #E0371F;
+}
+
+.formInputError {
+    color:#E0371F;
+    border: 1px solid #E0371F;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    height: 56px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    padding-left: 18px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    box-sizing: border-box;
+}
+
+.formLabelTrue {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #00B247;
+}
+
+.formInputTrue {
+    color:#00B247;
+    border: 1px solid #00B247;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    height: 56px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    padding-left: 18px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    box-sizing: border-box;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.formInput:focus {
+    border: 1px #009CB4 solid;
+}
+
+.formInputError:focus {
+    border: 1px #009CB4 solid;
+}
+
+.formInputTrue:focus {
+    border: 1px #009CB4 solid;
+}
+
 .formInput::placeholder {
     font-weight: 500;
     font-size: 14px;
@@ -112,28 +183,43 @@
     letter-spacing: 0.01em;
 }
 
-.formLinkMore{
-display: flex;
-align-items:center;
-justify-content: center;
+.formLinkMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 59px;
     border: 1px solid #EDEDF4;
     border-radius: 5px;
     font-weight: 500;
-font-size: 14px;
-line-height: 19px;
-text-decoration-line: underline;
-color: #4D4D4F;
-margin-top: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #4D4D4F;
+    margin-top: 20px;
 }
 
-.formText{
+.formLinkMore:hover{
+    border:#009CB4 1px solid;
+    color: #009CB4;
+    text-decoration: underline;
+}
+
+.formText {
     padding-top: 40px;
     margin: auto;
     font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-text-align: center;
-color: #4D4D4F;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #4D4D4F;
+}
+
+.errorSpan {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #E0371F;
+    margin-top: -15px;
+    margin-bottom: 20px;
 }

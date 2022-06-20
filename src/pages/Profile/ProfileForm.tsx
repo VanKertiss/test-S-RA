@@ -13,15 +13,15 @@ const ProfileForm = () => {
 
                 <div className={HS.firstStageInputContainer}>
                     <label htmlFor="firstName">Имя</label>
-                    <input placeholder={profileData.firstName} id='firstName' type="text" />
+                    <input className={HS.firstStageInput} placeholder={profileData.firstName} id='firstName' type="text" />
                 </div>
                 <div className={HS.firstStageInputContainer}>
                     <label htmlFor="lastName">Фамилия</label>
-                    <input placeholder={profileData.lasName} id='lastName' type="text" />
+                    <input className={HS.firstStageInput} placeholder={profileData.lasName} id='lastName' type="text" />
                 </div>
                 <div className={HS.firstStageInputContainer}>
                     <label htmlFor="phaserName">Отчество</label>
-                    <input placeholder={profileData.fatherName} id='phaserName' type="text" />
+                    <input className={HS.firstStageInput} placeholder={profileData.fatherName} id='phaserName' type="text" />
                 </div>
                 <div className={HS.firstStageInputContainer}>
                     <label htmlFor="country">Страна</label>

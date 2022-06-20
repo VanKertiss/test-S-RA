@@ -4,10 +4,11 @@
 - [x] authorization layout;
 - [x] add redux,redux toolkit;
 - [x] add stor and reducers;
-- [ ] add api;
-- [ ] add async request;
-- [ ] add thunk;
+- [x] add api;
+- [x] add async request;
+- [x] add thunk;
 - [x] header layout;
-- [ ] authorization;
+- [x] authorization;
 - [x] main content layout;
 - [x] profile layout;
+- [ ] styled authorization form
